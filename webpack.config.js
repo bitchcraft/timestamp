@@ -11,7 +11,7 @@ const config = {
 		],
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'lib'),
 		filename: '[name].es5.js',
 		library: 'Timestamp',
 		libraryTarget: 'umd',
