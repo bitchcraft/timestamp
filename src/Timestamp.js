@@ -1,5 +1,7 @@
 // @flow
-import Timezone, { fromNumber, toNumberOptions } from './Timezone';
+import TimezoneModule, { fromNumber, toNumberOptions } from './Timezone';
+
+export const Timezone = TimezoneModule;
 
 /**
  * Pads numbers < 10 with a leading 0
