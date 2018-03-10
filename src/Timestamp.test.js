@@ -1,10 +1,11 @@
 /* eslint-env jest */
-import timestampFromDate, { fromDate } from './Timestamp';
+import Timestamp, { timestampFromDate, fromDate } from './Timestamp';
 import Timezone from './Timezone';
 
 describe('Timestamp', () => {
 	it('should export { fromDate }', () => expect(typeof fromDate).toBe('function'));
-	it('should default export fromDate', () => expect(typeof timestampFromDate).toBe('function'));
+	it('should default { timestampFromDate }', () => expect(typeof timestampFromDate).toBe('function'));
+	it('should default export fromDate', () => expect(typeof Timestamp).toBe('function'));
 
 	const io = [{
 		in: [

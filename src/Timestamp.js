@@ -58,4 +58,6 @@ export function fromDate(date: Date = new Date(), timezone: ?Timezone) {
 		+ `${tz}`;
 }
 
+export const timestampFromDate = fromDate;
+
 export default Timestamp.fromDate;
