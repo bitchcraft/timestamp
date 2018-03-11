@@ -52,5 +52,5 @@
 	"author": "Josh Li (https://github.com/maddrag0n)",
 	"contributors": [],
 	"main": "lib/timestamp.es5.js",
-	"repository": "https://github.com/bitchcraft/unicorn-logger"
+	"repository": "https://github.com/bitchcraft/timestamp"
 }
