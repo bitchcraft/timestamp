@@ -2,6 +2,8 @@
 
 Output RFC3339 / ISO8601 String from Date
 
+[![CircleCI](https://circleci.com/gh/bitchcraft/timestamp.svg?style=svg&circle-token=fc9eb089b67722e0af2521d72015ffed1d05c37a)](https://circleci.com/gh/bitchcraft/timestamp)
+
 ## Installation
 
 ```sh
