@@ -5,7 +5,7 @@
 	"description": "RFC3339 / ISO8601 String from Date",
 	"license": "BSD-3-Clause",
 	"dependencies": {
-		"set-value": "^3.0.1"
+		"set-value": "^4.0.1"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.6.3",
